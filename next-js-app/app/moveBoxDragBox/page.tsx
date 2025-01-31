@@ -35,7 +35,7 @@ export default function BoxDragDrop() {
                         } else {
                             boxCurrentPosition -= 1;
                         }
-                        currentBox.style.left = boxCurrentPosition + 'px';
+                        currentBox.style.left = boxCurrentPosition + 'px'
                         await sleep(waitTime);
                     }
                 }
